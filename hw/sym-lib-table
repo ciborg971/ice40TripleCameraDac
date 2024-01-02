@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ICE40LP1K-QN84")(type "KiCad")(uri "${KIPRJMOD}/lib/ICE40LP1K-QN84/ICE40LP1K-QN84.kicad_sym")(options "")(descr ""))
+  (lib (name "easyeda2kicad")(type "KiCad")(uri "${KIPRJMOD}/lib/easyeda2kicad.kicad_sym")(options "")(descr ""))
+)

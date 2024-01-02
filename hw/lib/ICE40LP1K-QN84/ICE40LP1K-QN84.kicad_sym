@@ -1,0 +1,735 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "ICE40LP1K-QN84" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at -22.874 68.622 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "ICE40LP1K-QN84" (id 1) (at -22.8927 -68.6781 0.0)
+      (effects (font (size 1.27 1.27)) (justify top left))
+    )
+    (property "Footprint" "ICE40LP1K-QN84:LATTICE_ICE40LP1K-QN84" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MF" "Lattice Semiconductor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Description" "\niCE40™ LP Field Programmable Gate Array (FPGA) IC 67 65536 1280 84-VFQFN Dual Rows, Exposed Pad\n" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Package" "QFN-84 Lattice Semiconductor" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Price" "None" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Check_prices" "https://www.snapeda.com/parts/ICE40LP1K-QN84/Lattice+Semiconductor+Corporation/view-part/?ref=eda" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "STANDARD" "MANUFACTURER RECOMMENDATIONS" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PARTREV" "3.4" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "SnapEDA_Link" "https://www.snapeda.com/parts/ICE40LP1K-QN84/Lattice+Semiconductor+Corporation/view-part/?ref=snap" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MP" "ICE40LP1K-QN84" (id 12) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=264192&manufacturer=Lattice Semiconductor&part_name=ICE40LP1K-QN84&search_term=ice40lp1k-qn84" (id 13) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Availability" "In Stock" (id 14) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "LATTICE SEMICONDUCTOR" (id 15) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "ICE40LP1K-QN84_0_0"
+      (rectangle (start -22.86 -68.58) (end 22.86 68.58)
+        (stroke (width 0.1524)) (fill (type background))
+      )
+      (pin bidirectional line (at -27.94 5.08 0) (length 5.08)
+        (name "IOL_1B"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -27.94 2.54 0) (length 5.08)
+        (name "IOL_2A"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -27.94 0.0 0) (length 5.08)
+        (name "IOL_2B"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -27.94 -2.54 0) (length 5.08)
+        (name "IOL_3A"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -27.94 -5.08 0) (length 5.08)
+        (name "IOL_3B"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -27.94 -7.62 0) (length 5.08)
+        (name "IOL_4A"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -27.94 -10.16 0) (length 5.08)
+        (name "IOL_4B"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -27.94 -12.7 0) (length 5.08)
+        (name "IOL_5A"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -27.94 -15.24 0) (length 5.08)
+        (name "IOL_5B"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -27.94 -17.78 0) (length 5.08)
+        (name "IOL_6A"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -27.94 35.56 0) (length 5.08)
+        (name "IOL_6B_GBIN7"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -27.94 33.02 0) (length 5.08)
+        (name "IOL_7A_GBIN6"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -27.94 -20.32 0) (length 5.08)
+        (name "IOL_7B"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -27.94 -22.86 0) (length 5.08)
+        (name "IOL_9A"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A10"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -27.94 -25.4 0) (length 5.08)
+        (name "IOL_9B"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -27.94 -27.94 0) (length 5.08)
+        (name "IOL_10B"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A11"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -27.94 -30.48 0) (length 5.08)
+        (name "IOL_11B"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -27.94 -33.02 0) (length 5.08)
+        (name "IOL_12B"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A12"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -27.94 -38.1 0) (length 5.08)
+        (name "IOB_30"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A13"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -27.94 -40.64 0) (length 5.08)
+        (name "IOB_32"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B10"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -27.94 -43.18 0) (length 5.08)
+        (name "IOB_33"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B11"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -27.94 27.94 0) (length 5.08)
+        (name "IOB_35_GBIN5"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A14"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -27.94 25.4 0) (length 5.08)
+        (name "IOB_36_GBIN4"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B12"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -27.94 -45.72 0) (length 5.08)
+        (name "IOB_34"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A16"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -27.94 -48.26 0) (length 5.08)
+        (name "IOB_38"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B13"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -27.94 -50.8 0) (length 5.08)
+        (name "IOB_40"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B14"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -27.94 -53.34 0) (length 5.08)
+        (name "IOB_41"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A19"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -27.94 -55.88 0) (length 5.08)
+        (name "IOB_42_CBSEL0"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B15"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -27.94 -58.42 0) (length 5.08)
+        (name "IOB_43_CBSEL1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A20"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -27.94 40.64 0) (length 5.08)
+        (name "CDONE"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B16"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -27.94 43.18 0) (length 5.08)
+        (name "CRESET_B"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A21"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 27.94 -53.34 180.0) (length 5.08)
+        (name "IOB_44_SDO"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B17"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 27.94 -50.8 180.0) (length 5.08)
+        (name "IOB_45_SDI"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A22"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional clock (at 27.94 -55.88 180.0) (length 5.08)
+        (name "IOB_46_SCK"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A23"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 27.94 -58.42 180.0) (length 5.08)
+        (name "IOB_47_SS"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B18"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 27.94 53.34 180.0) (length 5.08)
+        (name "VCC_SPI"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A24"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 27.94 43.18 180.0) (length 5.08)
+        (name "IOR_52"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B19"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 27.94 40.64 180.0) (length 5.08)
+        (name "IOR_53"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A25"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 27.94 38.1 180.0) (length 5.08)
+        (name "IOR_55"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A26"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 27.94 35.56 180.0) (length 5.08)
+        (name "IOR_56"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B20"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 27.94 33.02 180.0) (length 5.08)
+        (name "IOR_57"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B21"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 27.94 30.48 180.0) (length 5.08)
+        (name "IOR_58"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A27"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -27.94 20.32 0) (length 5.08)
+        (name "IOR_60_GBIN3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A29"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -27.94 17.78 0) (length 5.08)
+        (name "IOR_61_GBIN2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B22"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 27.94 22.86 180.0) (length 5.08)
+        (name "IOR_63"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B23"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 27.94 20.32 180.0) (length 5.08)
+        (name "IOR_64"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A31"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 27.94 17.78 180.0) (length 5.08)
+        (name "IOR_65"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B24"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 27.94 15.24 180.0) (length 5.08)
+        (name "IOR_66"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A32"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 27.94 12.7 180.0) (length 5.08)
+        (name "IOR_68"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A33"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 27.94 10.16 180.0) (length 5.08)
+        (name "IOR_69"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A34"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 27.94 7.62 180.0) (length 5.08)
+        (name "IOR_70"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B26"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 27.94 5.08 180.0) (length 5.08)
+        (name "IOR_71"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A35"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 27.94 2.54 180.0) (length 5.08)
+        (name "IOR_72"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B27"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 27.94 50.8 180.0) (length 5.08)
+        (name "VPP_2V5"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A36"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 27.94 48.26 180.0) (length 5.08)
+        (name "VPP_FAST"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A37"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 27.94 -5.08 180.0) (length 5.08)
+        (name "IOT_76"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A38"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 27.94 -7.62 180.0) (length 5.08)
+        (name "IOT_77"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B29"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 27.94 -10.16 180.0) (length 5.08)
+        (name "IOT_78"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A39"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 27.94 -12.7 180.0) (length 5.08)
+        (name "IOT_79"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B30"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 27.94 -15.24 180.0) (length 5.08)
+        (name "IOT_80"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A40"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 27.94 -17.78 180.0) (length 5.08)
+        (name "IOT_81"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B31"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 27.94 -20.32 180.0) (length 5.08)
+        (name "IOT_82"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A41"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -27.94 12.7 0) (length 5.08)
+        (name "IOT_84_GBIN1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A43"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -27.94 10.16 0) (length 5.08)
+        (name "IOT_85_GBIN0"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B32"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 27.94 -27.94 180.0) (length 5.08)
+        (name "IOT_86"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A44"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 27.94 -30.48 180.0) (length 5.08)
+        (name "IOT_88"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A45"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 27.94 -33.02 180.0) (length 5.08)
+        (name "IOT_89"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B34"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 27.94 -35.56 180.0) (length 5.08)
+        (name "IOT_90"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A46"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 27.94 -38.1 180.0) (length 5.08)
+        (name "IOT_91"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B35"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 27.94 -40.64 180.0) (length 5.08)
+        (name "IOT_92"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A47"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 27.94 -43.18 180.0) (length 5.08)
+        (name "IOT_93"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B36"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 27.94 -45.72 180.0) (length 5.08)
+        (name "IOT_95"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A48"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 27.94 -66.04 180.0) (length 5.08)
+        (name "GND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 27.94 -66.04 180.0) (length 5.08)
+        (name "GND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A18"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 27.94 -66.04 180.0) (length 5.08)
+        (name "GND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A30"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 27.94 -66.04 180.0) (length 5.08)
+        (name "GND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B33"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 27.94 66.04 180.0) (length 5.08)
+        (name "VCC"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 27.94 66.04 180.0) (length 5.08)
+        (name "VCC"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A15"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 27.94 66.04 180.0) (length 5.08)
+        (name "VCC"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A28"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 27.94 66.04 180.0) (length 5.08)
+        (name "VCC"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B28"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 27.94 63.5 180.0) (length 5.08)
+        (name "VCCIO_0"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A42"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 27.94 60.96 180.0) (length 5.08)
+        (name "VCCIO_1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B25"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 27.94 58.42 180.0) (length 5.08)
+        (name "VCCIO_2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A17"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 27.94 55.88 180.0) (length 5.08)
+        (name "VCCIO_3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 27.94 -63.5 180.0) (length 5.08)
+        (name "EP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "42"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
