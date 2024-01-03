@@ -2,4 +2,6 @@
   (version 7)
   (lib (name "ICE40LP1K-QN84")(type "KiCad")(uri "${KIPRJMOD}/lib/ICE40LP1K-QN84/ICE40LP1K-QN84.kicad_sym")(options "")(descr ""))
   (lib (name "easyeda2kicad")(type "KiCad")(uri "${KIPRJMOD}/lib/easyeda2kicad.kicad_sym")(options "")(descr ""))
+  (lib (name "tinyfpga")(type "Legacy")(uri "${KIPRJMOD}/lib/tinyfpga.lib")(options "")(descr ""))
+  (lib (name "ICE40LP8K-CM121")(type "KiCad")(uri "${KIPRJMOD}/lib/ICE40LP8K-CM121.kicad_sym")(options "")(descr ""))
 )
